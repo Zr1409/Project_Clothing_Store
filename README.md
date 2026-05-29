@@ -107,3 +107,53 @@ Dự án sử dụng giấy phép MIT.
 ## Đóng góp
 Mọi đóng góp đều được hoan nghênh! Vui lòng tạo pull request hoặc issue để thảo luận.
 
+🚀 BẮT ĐẦU
+cd TalentHub-backend
+✅ 1. Commit core project (pom + main)
+git add pom.xml src/main/java/com/edu/Project_Clothing_StoreApplication.java
+git commit -m "feat: init Spring Boot project"
+git push
+✅ 2. Commit config (security, cors, oauth)
+git add src/main/java/com/edu/AppConfig.java
+git commit -m "feat: setup config"
+git push
+✅ 3. Commit entity + repository
+git add src/main/java/com/edu/model
+git commit -m "feat: add JPA entities"
+git push
+✅ 4. Commit service + impl
+git add src/main/java/com/backend/service
+git commit -m "feat: implement business logic services"
+git push
+✅ 6. Commit DTO + exception
+git add src/main/java/com/backend/dto src/main/java/com/backend/exception
+git commit -m "feat: add DTOs and global exception handling"
+git push
+✅ 7. Commit util
+git add src/main/java/com/backend/enums
+git commit -m "feat: add enums classes"
+git push
+
+git add public
+git commit -m "doc: add public"
+git push
+
+git add 
+git commit -m "feat: add file mvn"
+git push
+
+✅ 8. Commit resources (config + SQL)
+git add src/main/resources
+git commit -m "chore: add application config and database scripts"
+git push
+✅ 5. Commit controller (API layer)
+git add src/main/java/com/backend/controller
+git commit -m "feat: add REST API controllers"
+git push
+⚠️ 9. Commit config files (Docker, env)
+git add Dockerfile .env.example render.yaml
+git commit -m "chore: add deployment and environment config"
+git push
+git add README.md
+git commit -m "docs: add README"
+git push
